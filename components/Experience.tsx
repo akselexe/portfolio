@@ -12,7 +12,7 @@ const Experience: React.FC<{}> = () => {
         <div className="md:flex md:flex-row md:justify-between pt-5">
           <div className="flex items-center gap-3">
             <Image
-              src={"/isima.png"}
+              src={"/portfolio/isima.png"}
               height={40}
               width={40}
               alt={"Mohamed Amine Kabtni - UX Experience"}

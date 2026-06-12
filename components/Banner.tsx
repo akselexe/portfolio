@@ -52,7 +52,7 @@ const Banner: React.FC<{}> = () => {
         <div className="flex-shrink-0">
           <Image
             priority
-            src="/me1.png"
+            src="/portfolio/me1.png"
             height={250}
             width={250}
             alt="Mohamed Amine Kabtni"
@@ -86,7 +86,7 @@ const Banner: React.FC<{}> = () => {
             </span>
           </p>
           <Image
-            src="/popcorn.gif"
+            src="/portfolio/popcorn.gif"
             height={40}
             width={40}
             alt="Popcorn"

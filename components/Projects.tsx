@@ -21,7 +21,7 @@ const Projects: React.FC<{}> = () => {
           >
             <div className="flex-row flex mb-5">
               <Image
-                src="/3amal.png"
+                src="/portfolio/3amal.png"
                 height={150}
                 width={150}
                 alt="IEEE CS/CN TSYP Challenge"
