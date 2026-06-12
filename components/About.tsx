@@ -13,16 +13,18 @@ const About: React.FC<{}> = () => {
           EXPLORE NOW
         </p>
         <p className="text-gray-300 text-center ">
-          As a passionate software engineer, I thrive on the intricate dance
-          between logic and creativity. Currently immersed in the dynamic world
-          of WebHR, my expertise centers around React Native, where I seamlessly
-          blend technology with innovation.
+          I&apos;m a student passionate about artificial intelligence and deep learning,
+          exploring how intelligent systems including predictive AI, large language
+          models, and generative AI can solve real world challenges.
           <br />
           <br />
-          With a fervor for crafting elegant solutions, I navigate the
-          ever-evolving landscape of software development. My journey involves
-          translating concepts into code, creating seamless user experiences,
-          and constantly pushing the boundaries of what&#39;s possible
+          I thrive at the intersection of theory and application, building expertise
+          through hands-on projects and community engagement.
+          <br />
+          <br />
+          Driven by curiosity and continuous learning, my goal is to grow into an
+          AI engineer contributing to impactful, innovative solutions in research
+          and industry.
         </p>
       </div>
     </section>

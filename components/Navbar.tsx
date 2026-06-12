@@ -1,31 +1,49 @@
 "use client";
 
-import Image from "next/image";
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const Navbar: React.FC<{}> = () => {
-  return (
-    <div className="w-full h-[65px] bg-['#111'] fixed backdrop-blur-sm z-50 px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-        <a
-          title="ibrahim logo"
-          href="/"
-          className="h-auto w-auto flex flex-row items-center"
-        >
-          <Image
-            src="/Logo.svg"
-            alt="Ibrahim Memon - Developer"
-            width={100}
-            height={100}
-            sizes="100vw"
-            className="w-full h-auto"
-          />
-        </a>
+  const [visible, setVisible] = useState(true);
 
-        <div className="flex flex-row gap-5">
+  useEffect(() => {
+    const handleScroll = () => {
+      // Hide navbar when scrolled down more than 50px
+      if (window.scrollY > 50) {
+        setVisible(false);
+      } else {
+        setVisible(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <div
+      className={`w-full h-[100px] fixed top-0 z-50 px-10 transition-all duration-500 ease-in-out ${visible ? "translate-y-0 opacity-100" : "-translate-y-[200%] opacity-0"
+        }`}
+    >
+      <div className="w-full h-full flex flex-row items-center justify-center m-auto px-[10px]">
+        <div className="flex items-center justify-between w-[700px] h-auto border border-white bg-transparent px-10 py-3 rounded-full text-white">
+          <a href="#" className="cursor-pointer hover:text-gray-300 transition">
+            Home
+          </a>
+          <a href="#about" className="cursor-pointer hover:text-gray-300 transition">
+            About
+          </a>
+          <a href="#experience" className="cursor-pointer hover:text-gray-300 transition">
+            Education
+          </a>
+          <a href="#skills" className="cursor-pointer hover:text-gray-300 transition">
+            Skills
+          </a>
+          <a href="#projects" className="cursor-pointer hover:text-gray-300 transition">
+            Projects
+          </a>
           <div
-            onClick={() => window.open("mailto:ibrahimmemon930@gmail.com")}
-            className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5"
+            onClick={() => window.open("mailto:amine.kabtani@ieee.org")}
+            className="cursor-pointer hover:text-gray-300 transition"
           >
             Contact
           </div>

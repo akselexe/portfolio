@@ -1,22 +1,12 @@
 export const Social_Icons = [
   {
-    link: "https://github.com/ibrahimmemonn",
+    link: "https://github.com/akselexe",
     image: "/Github.svg",
-    alt: "Ibrahim Memon - Social Media",
+    alt: "Mohamed Amine Kabtni - GitHub",
   },
   {
-    link: "https://www.instagram.com/ibii.memon/?hl=en",
-    image: "/Instagram.svg",
-    alt: "Ibrahim Memon - Social Media",
-  },
-  {
-    link: "https://www.linkedin.com/in/ibrahimmemonn/",
+    link: "https://www.linkedin.com/in/mohamed-amine-kabtni-6b0240339",
     image: "/LinkedIn.svg",
-    alt: "Ibrahim Memon - Social Media",
-  },
-  {
-    link: "https://twitter.com/Ibrahimmemonnn",
-    image: "/Twitter.svg",
-    alt: "Ibrahim Memon - Social Media",
+    alt: "Mohamed Amine Kabtni - LinkedIn",
   },
 ];

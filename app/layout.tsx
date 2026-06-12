@@ -9,31 +9,31 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ibiimemon.com/"),
-  title: "Ibrahim Memon - SWE | IXD | UX - Developer Portfolio",
+  metadataBase: new URL("https://akselexe.github.io/portfolio/"),
+  title: "Mohamed Amine Kabtni - SWE | IXD | UX - Developer Portfolio",
   description:
     "Developer Portfolio of Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
   keywords: [
     "Developer",
     "Portfolio",
     "Developer Portflio",
-    "Ibrahim Memon",
-    "Ibrahim",
-    "IbiiMemon",
-    "IbrahimMemon",
-    "Ibrahim_Memon",
+    "Mohamed Amine Kabtni",
+    "Mohamed",
+    "Amine",
+    "Kabtni",
+    "Mohamed_Amine_Kabtni",
     "Next.js",
     "ReactNative",
     "Android",
   ],
   openGraph: {
-    title: "Ibrahim Memon - SWE | IXD | UX",
+    title: "Mohamed Amine Kabtni - SWE | IXD | UX",
     description:
       "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
     images: "/OpenGraph.jpg",
   },
   alternates: {
-    canonical: "https://ibiimemon.com/",
+    canonical: "https://akselexe.github.io/portfolio/",
   },
 };
 export default function RootLayout({
@@ -50,29 +50,14 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "http://schema.org",
               "@type": "Person",
-              name: "Ibrahim Memon",
+              name: "Mohamed Amine Kabtni",
               jobTitle: "Software Engineer",
-              url: "https://ibiimemon.com",
+              url: "https://akselexe.github.io",
               sameAs: [
-                "https://www.linkedin.com/in/ibrahimmemonn/",
-                "https://github.com/ibrahimmemonn",
+                "https://www.linkedin.com/in/mohamed-amine-kabtni-6b0240339",
+                "https://github.com/akselexe",
               ],
             }),
-          }}
-        />
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=G-${process.env.NEXT_PRIVATE_GTID}`}
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-${process.env.NEXT_PRIVATE_GTID}');
-            `,
           }}
         />
       </head>
