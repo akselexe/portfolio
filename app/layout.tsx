@@ -10,9 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://akselexe.github.io/portfolio/"),
-  title: "Mohamed Amine Kabtni - SWE | IXD | UX - Developer Portfolio",
+  title: "Mohamed Amine Kabtni - Portfolio",
   description:
-    "Developer Portfolio of Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
+    "Portfolio of AI & Data Science Enthusiast ",
   keywords: [
     "Developer",
     "Portfolio",
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     "Android",
   ],
   openGraph: {
-    title: "Mohamed Amine Kabtni - SWE | IXD | UX",
+    title: "Mohamed Amine Kabtni - Portfolio",
     description:
-      "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
-    images: "/OpenGraph.jpg",
+      "Portfolio of AI & Data Science Enthusiast",
+    images: "/amine.jpg",
   },
   alternates: {
     canonical: "https://akselexe.github.io/portfolio/",
