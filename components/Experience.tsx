@@ -24,6 +24,12 @@ const Experience: React.FC<{}> = () => {
           <p className="text-gray-300 md:pt-0 pt-3">
             september 2024 - Present, Mahdia, Tunisia
           </p>
+
+        </div>
+        <div className="mt-8">
+          <p className="text-gray-300 leading-relaxed text-lg">
+            Second-year Business Intelligence student with strong interest in AI/ML, combining business computing fundamentals with data-driven technologies.
+          </p>
         </div>
       </div>
     </section>

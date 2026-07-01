@@ -3,20 +3,26 @@ import Image from "next/image";
 
 const skillCategories = [
     {
-        title: "Frontend Development",
+        title: "Web Development (MERN Stack)",
         icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-        skills: ["HTML5", "CSS", "JavaScript", "TypeScript", "React JS", "Next.js", "Tailwind CSS"],
+        skills: ["MongoDB", "Express.js", "React", "Node.js"],
     },
     {
-        title: "Backend Development",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-        skills: ["Node.js", "Express.js", "Python", "MongoDB", "Git & GitHub", "Docker", "PostgreSQL"],
+        title: "Business Intelligence",
+        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+        skills: ["Power BI", "SQL", "Data Warehousing", "ETL Pipelines", "Data Analysis", "Data Analytics", "Reporting"],
     },
     {
-        title: "Machine Learning",
+        title: "Machine Learning & AI",
         icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-        skills: ["Scikit-learn", "NumPy", "Pandas", "Matplotlib", "TensorFlow", "PyTorch"],
+        skills: ["Python", "PyTorch", "Scikit-learn", "Hugging Face", "LangChain", "RAG", "Deep Learning", "NLP", "Generative AI", "Diffusion Models"],
     },
+    {
+        title: "Programming",
+        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        skills: ["Python", "Java", "SQL", "C", "OOP"],
+    },
+
 ];
 
 const Skills: React.FC = () => {
@@ -35,7 +41,7 @@ const Skills: React.FC = () => {
                         key={index}
                         className="flex-1 min-w-[300px] max-w-[500px] relative group"
                     >
-                        {/* Styled Card - Transparent with White border, matching the Contact Button */}
+
                         <div className="relative bg-transparent rounded-3xl p-8 md:p-12 h-full flex flex-col items-center border-[0.1px] border-white hover:bg-white hover:text-black transition-all duration-300 group">
 
                             {/* Category Icon */}

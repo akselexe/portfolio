@@ -25,7 +25,7 @@ const Navbar: React.FC<{}> = () => {
         }`}
     >
       <div className="w-full h-full flex flex-row items-center justify-center m-auto px-[10px]">
-        <div className="flex items-center justify-between w-[700px] h-auto border border-white bg-transparent px-10 py-3 rounded-full text-white">
+        <div className="flex items-center justify-between w-auto gap-5 md:gap-8 h-auto border border-white bg-transparent px-8 py-3 rounded-full text-white text-sm md:text-base">
           <a href="#" className="cursor-pointer hover:text-gray-300 transition">
             Home
           </a>
@@ -37,6 +37,9 @@ const Navbar: React.FC<{}> = () => {
           </a>
           <a href="#skills" className="cursor-pointer hover:text-gray-300 transition">
             Skills
+          </a>
+          <a href="#certifications" className="cursor-pointer hover:text-gray-300 transition">
+            Certifications
           </a>
           <a href="#projects" className="cursor-pointer hover:text-gray-300 transition">
             Projects

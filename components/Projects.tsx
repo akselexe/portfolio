@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -12,9 +12,10 @@ const Projects: React.FC<{}> = () => {
         EXPLORE NOW
       </p>
       <div className=" container mx-auto 2xl  ">
+        {/* Project 1 - 3AMAL */}
         <div className="flex justify-center mt-7">
           <Link
-            href="https://web.hr/"
+            href="https://github.com/akselexe/utopia-career-growth"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
@@ -24,7 +25,7 @@ const Projects: React.FC<{}> = () => {
                 src="/portfolio/3amal.png"
                 height={150}
                 width={150}
-                alt="IEEE CS/CN TSYP Challenge"
+                alt="3AMAL"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">3AMAL</p>
@@ -36,6 +37,33 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
         </div>
+
+        {/* Project 2 - BioGaz+ */}
+        <div className="flex justify-center mt-7">
+          <Link
+            href="https://biogaz-connect.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/portfolio/BioGaz+.png"
+                height={150}
+                width={150}
+                alt="BioGaz+"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">BioGaz+</p>
+                <p className="text-gray-500 text-[10px]">
+                  A smart IoT-enabled biodigester that converts organic waste into clean energy and natural fertilizer.
+                  Awarded 1st Place at the INJAZ Tunisia Company Program, competing against 20+ teams.
+                </p>
+              </div>
+            </div>
+          </Link>
+        </div>
+
       </div>
     </section>
   );
